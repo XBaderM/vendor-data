@@ -1,0 +1,24 @@
+{
+  "name": "vendor-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XBaderM/vendor-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XBaderM/vendor-data/issues"
+  },
+  "homepage": "https://github.com/XBaderM/vendor-data#readme",
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.398.0",
+    "aws-sdk": "^2.1446.0",
+    "dotenv": "^16.3.1"
+  }
+}
